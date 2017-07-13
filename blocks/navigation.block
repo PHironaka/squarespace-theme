@@ -1,3 +1,4 @@
+
 <nav data-content-field="navigation-primary-nav">
   {.repeated section items}
       {.folder?}
@@ -17,7 +18,7 @@
             {.end}
           {.end}
         </span>
-          
+
       {.or}
 
         {.section collection}
@@ -31,6 +32,6 @@
         {.end}
 
       {.end}
-      
+
   {.end}
 </nav>

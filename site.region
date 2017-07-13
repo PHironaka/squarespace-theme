@@ -7,7 +7,6 @@
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-    <p>Hello, World!</p>
 
     <header>
 
@@ -23,12 +22,14 @@
         </h1>
 
         {.section siteTagLine}
-          <p>{@}</p>
+        <a href="/">
+    {website.siteTitle}
+  </a>
         {.end}
 
       {.end}
 
-      <squarespace:navigation navigationId="primary-nav" template="navigation" />
+      <squarespace:navigation navigationId="mainNav" template="navigation" />
 
 
 
