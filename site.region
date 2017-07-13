@@ -7,8 +7,10 @@
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+    <p>Hello, World!</p>
 
     <header>
+
       {.section website}
         <h1>
           <a href="/" data-content-field="site-title">
@@ -19,7 +21,7 @@
             {.end}
           </a>
         </h1>
-        
+
         {.section siteTagLine}
           <p>{@}</p>
         {.end}
@@ -27,6 +29,9 @@
       {.end}
 
       <squarespace:navigation navigationId="primary-nav" template="navigation" />
+
+
+
     </header>
 
     <main data-content-field="main-content">
@@ -40,6 +45,6 @@
     <script type="text/javascript" src="/scripts/site-bundle.js"></script>
 
     {squarespace-footers}
-    
+
   </body>
-</html> 
+</html>
