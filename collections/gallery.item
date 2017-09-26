@@ -1,4 +1,4 @@
-{.repeated section items}
+{.section item}
 
   <!--WRAPPER-->
 
@@ -14,20 +14,10 @@
       {.end}
     </h1>
 
-    <!--EXCERPT OR BODY-->
-
-    {.if excerpt}
-      {excerpt}
-      <a class="link" href="{fullUrl}">Read More</a>
-    {.or}
-
     <!--MAIN CONTENT-->
-      {body}
 
-    {.end}
+    {body}
 
   </article>
 
-{.or}
-  No blog posts yet.
 {.end}

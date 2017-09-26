@@ -3,12 +3,16 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
     {squarespace-headers}
+    <squarespace:script data-preserve-html-node="true" src="site.js" combo="true"/>
+
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-
+<p>Hello, World!</p>
     <header>
+      <squarespace:navigation navigationId="mainNav" template="navigation" />
 
       {.section website}
         <h1>
@@ -16,20 +20,17 @@
             {.section logoImageUrl}
              <img src="{logoImageUrl}?format=original" alt="{siteTitle}" />
             {.or}
-              {siteTitle}
+              {website.siteTitle}
             {.end}
           </a>
         </h1>
 
         {.section siteTagLine}
-        <a href="/">
-    {website.siteTitle}
-  </a>
+
         {.end}
 
       {.end}
 
-      <squarespace:navigation navigationId="mainNav" template="navigation" />
 
 
 
